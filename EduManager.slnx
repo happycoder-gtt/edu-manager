@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="EduManager.BLL/EduManager.BLL.csproj" />
+  <Project Path="EduManager.DAL/EduManager.DAL.csproj" />
+  <Project Path="EduManager.Pre/EduManager.Pre.csproj" />
+</Solution>
