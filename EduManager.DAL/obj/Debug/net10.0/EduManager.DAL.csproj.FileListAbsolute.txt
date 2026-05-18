@@ -12,3 +12,18 @@ C:\Users\giang\OneDrive\Documents\Visual Studio 2022\001\EduManager\EduManager.D
 C:\Users\giang\OneDrive\Documents\Visual Studio 2022\001\EduManager\EduManager.DAL\bin\Debug\net10.0\EduManager.DAL.runtimeconfig.json
 C:\Users\giang\OneDrive\Documents\Visual Studio 2022\001\EduManager\EduManager.DAL\obj\Debug\net10.0\EduManager.DAL.csproj.AssemblyReference.cache
 C:\Users\giang\OneDrive\Documents\Visual Studio 2022\001\EduManager\EduManager.DAL\obj\Debug\net10.0\EduManager.DAL.genruntimeconfig.cache
+C:\Users\giang\source\repos\edu-manager\EduManager.DAL\bin\Debug\net10.0\EduManager.DAL.deps.json
+C:\Users\giang\source\repos\edu-manager\EduManager.DAL\bin\Debug\net10.0\EduManager.DAL.runtimeconfig.json
+C:\Users\giang\source\repos\edu-manager\EduManager.DAL\bin\Debug\net10.0\EduManager.DAL.dll
+C:\Users\giang\source\repos\edu-manager\EduManager.DAL\bin\Debug\net10.0\EduManager.DAL.pdb
+C:\Users\giang\source\repos\edu-manager\EduManager.DAL\obj\Debug\net10.0\EduManager.DAL.csproj.AssemblyReference.cache
+C:\Users\giang\source\repos\edu-manager\EduManager.DAL\obj\Debug\net10.0\EduManager.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giang\source\repos\edu-manager\EduManager.DAL\obj\Debug\net10.0\EduManager.DAL.AssemblyInfoInputs.cache
+C:\Users\giang\source\repos\edu-manager\EduManager.DAL\obj\Debug\net10.0\EduManager.DAL.AssemblyInfo.cs
+C:\Users\giang\source\repos\edu-manager\EduManager.DAL\obj\Debug\net10.0\EduManager.DAL.csproj.CoreCompileInputs.cache
+C:\Users\giang\source\repos\edu-manager\EduManager.DAL\obj\Debug\net10.0\EduManager.DAL.sourcelink.json
+C:\Users\giang\source\repos\edu-manager\EduManager.DAL\obj\Debug\net10.0\EduManager.DAL.dll
+C:\Users\giang\source\repos\edu-manager\EduManager.DAL\obj\Debug\net10.0\refint\EduManager.DAL.dll
+C:\Users\giang\source\repos\edu-manager\EduManager.DAL\obj\Debug\net10.0\EduManager.DAL.pdb
+C:\Users\giang\source\repos\edu-manager\EduManager.DAL\obj\Debug\net10.0\EduManager.DAL.genruntimeconfig.cache
+C:\Users\giang\source\repos\edu-manager\EduManager.DAL\obj\Debug\net10.0\ref\EduManager.DAL.dll

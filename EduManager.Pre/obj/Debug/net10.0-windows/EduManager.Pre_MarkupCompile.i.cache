@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\giang\OneDrive\Documents\Visual Studio 2022\001\EduManager\EduManager.Pre\obj\Debug\net10.0-windows\
+C:\Users\giang\source\repos\edu-manager\EduManager.Pre\obj\Debug\net10.0-windows\
 EduManager.Pre
 none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\giang\OneDrive\Documents\Visual Studio 2022\001\EduManager\EduManager.Pre\App.xaml
+C:\Users\giang\source\repos\edu-manager\EduManager.Pre\App.xaml
 11407045341
 
 62098577131
-238-2057100133
+238-571582818
 MainWindow.xaml;
 
-True
+False
 

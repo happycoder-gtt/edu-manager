@@ -5,8 +5,76 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EduManager.Pre"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="MainWindow" Height="484" Width="800">
+    <Grid Margin="15">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
+        <TextBlock Text="QUẢN LÝ SINH VIÊN"
+               FontSize="24"
+               FontWeight="Bold"
+               Margin="0,0,0,15"/>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="320"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Form nhập liệu -->
+            <StackPanel Grid.Column="0" Margin="0,0,15,0">
+
+                <TextBlock Text="Mã sinh viên"/>
+                <TextBox x:Name="txtStudentCode" Margin="0,5,0,10"/>
+
+                <TextBlock Text="Họ tên"/>
+                <TextBox x:Name="txtFullName" Margin="0,5,0,10"/>
+
+                <TextBlock Text="Ngày sinh"/>
+                <DatePicker x:Name="dpDateOfBirth" Margin="0,5,0,10"/>
+
+                <TextBlock Text="Giới tính"/>
+                <ComboBox x:Name="cboGender" Margin="0,5,0,10">
+                    <ComboBoxItem Content="Nam" Tag="true"/>
+                    <ComboBoxItem Content="Nữ" Tag="false"/>
+                </ComboBox>
+
+                <TextBlock Text="Email"/>
+                <TextBox x:Name="txtEmail" Margin="0,5,0,10"/>
+
+                <TextBlock Text="Số điện thoại"/>
+                <TextBox x:Name="txtPhone" Margin="0,5,0,10"/>
+
+                <TextBlock Text="Chuyên ngành"/>
+                <TextBox x:Name="txtMajor" Margin="0,5,0,10"/>
+
+                <StackPanel Orientation="Horizontal">
+                    <Button Content="Thêm" Width="70" Margin="0,0,5,0" Click="btnAdd_Click"/>
+                    <Button Content="Sửa" Width="70" Margin="0,0,5,0" Click="btnUpdate_Click"/>
+                    <Button Content="Xóa" Width="70" Margin="0,0,5,0" Click="btnDelete_Click"/>
+                    <Button Content="Làm mới" Width="80" Click="btnRefresh_Click"/>
+                </StackPanel>
+            </StackPanel>
+
+            <!-- Danh sách sinh viên -->
+            <DataGrid x:Name="dgStudents"
+                  Grid.Column="1"
+                  AutoGenerateColumns="False"
+                  IsReadOnly="True"
+                  SelectionChanged="dgStudents_SelectionChanged">
+
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Mã SV" Binding="{Binding StudentCode}" Width="100"/>
+                    <DataGridTextColumn Header="Họ tên" Binding="{Binding FullName}" Width="180"/>
+                    <DataGridTextColumn Header="Ngày sinh" Binding="{Binding DateOfBirth, StringFormat=dd/MM/yyyy}" Width="100"/>
+                    <DataGridTextColumn Header="Giới tính" Binding="{Binding GenderText}" Width="80"/>
+                    <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="180"/>
+                    <DataGridTextColumn Header="Điện thoại" Binding="{Binding Phone}" Width="120"/>
+                    <DataGridTextColumn Header="Chuyên ngành" Binding="{Binding Major}" Width="180"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
     </Grid>
 </Window>

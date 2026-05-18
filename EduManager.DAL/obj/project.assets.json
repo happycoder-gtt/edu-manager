@@ -3673,11 +3673,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\giang\\OneDrive\\Documents\\Visual Studio 2022\\001\\EduManager\\EduManager.DAL\\EduManager.DAL.csproj",
+      "projectUniqueName": "C:\\Users\\giang\\source\\repos\\edu-manager\\EduManager.DAL\\EduManager.DAL.csproj",
       "projectName": "EduManager.DAL",
-      "projectPath": "C:\\Users\\giang\\OneDrive\\Documents\\Visual Studio 2022\\001\\EduManager\\EduManager.DAL\\EduManager.DAL.csproj",
+      "projectPath": "C:\\Users\\giang\\source\\repos\\edu-manager\\EduManager.DAL\\EduManager.DAL.csproj",
       "packagesPath": "C:\\Users\\giang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\giang\\OneDrive\\Documents\\Visual Studio 2022\\001\\EduManager\\EduManager.DAL\\obj\\",
+      "outputPath": "C:\\Users\\giang\\source\\repos\\edu-manager\\EduManager.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

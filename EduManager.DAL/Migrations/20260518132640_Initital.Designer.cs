@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EduManager.DAL.Migrations
 {
     [DbContext(typeof(EduManagerDbContext))]
-    [Migration("20260506074713_KhoiTao")]
-    partial class KhoiTao
+    [Migration("20260518132640_Initital")]
+    partial class Initital
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

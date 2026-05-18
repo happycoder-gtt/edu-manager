@@ -1502,11 +1502,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\giang\\OneDrive\\Documents\\Visual Studio 2022\\001\\EduManager\\EduManager.Pre\\EduManager.Pre.csproj",
+      "projectUniqueName": "C:\\Users\\giang\\source\\repos\\edu-manager\\EduManager.Pre\\EduManager.Pre.csproj",
       "projectName": "EduManager.Pre",
-      "projectPath": "C:\\Users\\giang\\OneDrive\\Documents\\Visual Studio 2022\\001\\EduManager\\EduManager.Pre\\EduManager.Pre.csproj",
+      "projectPath": "C:\\Users\\giang\\source\\repos\\edu-manager\\EduManager.Pre\\EduManager.Pre.csproj",
       "packagesPath": "C:\\Users\\giang\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\giang\\OneDrive\\Documents\\Visual Studio 2022\\001\\EduManager\\EduManager.Pre\\obj\\",
+      "outputPath": "C:\\Users\\giang\\source\\repos\\edu-manager\\EduManager.Pre\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1527,11 +1527,11 @@
         "net10.0-windows7.0": {
           "targetAlias": "net10.0-windows",
           "projectReferences": {
-            "C:\\Users\\giang\\OneDrive\\Documents\\Visual Studio 2022\\001\\EduManager\\EduManager.BLL\\EduManager.BLL.csproj": {
-              "projectPath": "C:\\Users\\giang\\OneDrive\\Documents\\Visual Studio 2022\\001\\EduManager\\EduManager.BLL\\EduManager.BLL.csproj"
+            "C:\\Users\\giang\\source\\repos\\edu-manager\\EduManager.BLL\\EduManager.BLL.csproj": {
+              "projectPath": "C:\\Users\\giang\\source\\repos\\edu-manager\\EduManager.BLL\\EduManager.BLL.csproj"
             },
-            "C:\\Users\\giang\\OneDrive\\Documents\\Visual Studio 2022\\001\\EduManager\\EduManager.DAL\\EduManager.DAL.csproj": {
-              "projectPath": "C:\\Users\\giang\\OneDrive\\Documents\\Visual Studio 2022\\001\\EduManager\\EduManager.DAL\\EduManager.DAL.csproj"
+            "C:\\Users\\giang\\source\\repos\\edu-manager\\EduManager.DAL\\EduManager.DAL.csproj": {
+              "projectPath": "C:\\Users\\giang\\source\\repos\\edu-manager\\EduManager.DAL\\EduManager.DAL.csproj"
             }
           }
         }

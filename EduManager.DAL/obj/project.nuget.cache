@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "19q537LeupY=",
+  "dgSpecHash": "4fxhl4QjxNc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\giang\\OneDrive\\Documents\\Visual Studio 2022\\001\\EduManager\\EduManager.DAL\\EduManager.DAL.csproj",
+  "projectFilePath": "C:\\Users\\giang\\source\\repos\\edu-manager\\EduManager.DAL\\EduManager.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\giang\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\giang\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

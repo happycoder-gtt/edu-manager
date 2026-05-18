@@ -13,3 +13,19 @@ C:\Users\giang\OneDrive\Documents\Visual Studio 2022\001\EduManager\EduManager.B
 C:\Users\giang\OneDrive\Documents\Visual Studio 2022\001\EduManager\EduManager.BLL\obj\Debug\net10.0\refint\EduManager.BLL.dll
 C:\Users\giang\OneDrive\Documents\Visual Studio 2022\001\EduManager\EduManager.BLL\obj\Debug\net10.0\EduManager.BLL.pdb
 C:\Users\giang\OneDrive\Documents\Visual Studio 2022\001\EduManager\EduManager.BLL\obj\Debug\net10.0\ref\EduManager.BLL.dll
+C:\Users\giang\source\repos\edu-manager\EduManager.BLL\bin\Debug\net10.0\EduManager.BLL.deps.json
+C:\Users\giang\source\repos\edu-manager\EduManager.BLL\bin\Debug\net10.0\EduManager.BLL.dll
+C:\Users\giang\source\repos\edu-manager\EduManager.BLL\bin\Debug\net10.0\EduManager.BLL.pdb
+C:\Users\giang\source\repos\edu-manager\EduManager.BLL\bin\Debug\net10.0\EduManager.DAL.dll
+C:\Users\giang\source\repos\edu-manager\EduManager.BLL\bin\Debug\net10.0\EduManager.DAL.pdb
+C:\Users\giang\source\repos\edu-manager\EduManager.BLL\obj\Debug\net10.0\EduManager.BLL.csproj.AssemblyReference.cache
+C:\Users\giang\source\repos\edu-manager\EduManager.BLL\obj\Debug\net10.0\EduManager.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\giang\source\repos\edu-manager\EduManager.BLL\obj\Debug\net10.0\EduManager.BLL.AssemblyInfoInputs.cache
+C:\Users\giang\source\repos\edu-manager\EduManager.BLL\obj\Debug\net10.0\EduManager.BLL.AssemblyInfo.cs
+C:\Users\giang\source\repos\edu-manager\EduManager.BLL\obj\Debug\net10.0\EduManager.BLL.csproj.CoreCompileInputs.cache
+C:\Users\giang\source\repos\edu-manager\EduManager.BLL\obj\Debug\net10.0\EduManager.BLL.sourcelink.json
+C:\Users\giang\source\repos\edu-manager\EduManager.BLL\obj\Debug\net10.0\EduManag.B9BCFCAE.Up2Date
+C:\Users\giang\source\repos\edu-manager\EduManager.BLL\obj\Debug\net10.0\EduManager.BLL.dll
+C:\Users\giang\source\repos\edu-manager\EduManager.BLL\obj\Debug\net10.0\refint\EduManager.BLL.dll
+C:\Users\giang\source\repos\edu-manager\EduManager.BLL\obj\Debug\net10.0\EduManager.BLL.pdb
+C:\Users\giang\source\repos\edu-manager\EduManager.BLL\obj\Debug\net10.0\ref\EduManager.BLL.dll
