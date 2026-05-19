@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EduManager.Pre"
         mc:Ignorable="d"
-        Title="MainWindow" Height="484" Width="800">
+        Title="MainWindow" Height="494" Width="800">
     <Grid Margin="15">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

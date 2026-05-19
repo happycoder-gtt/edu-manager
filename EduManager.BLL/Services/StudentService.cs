@@ -20,5 +20,15 @@ namespace EduManager.BLL.Services
         {
             return _studentRepository.GetAll();
         }
+
+        public void UpdateStudent(Student student)
+        {
+            _studentRepository.Update(student);
+        }
+
+        public void DeleteStudent(int id)
+        {
+            _studentRepository.Delete(id);
+        }
     }
 }

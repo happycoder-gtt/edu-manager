@@ -19,6 +19,7 @@ namespace EduManager.Pre
     public partial class MainWindow : Window
     {
         private readonly StudentService _studentService = new StudentService();
+        private int _studentId = 0;
 
         public MainWindow()
         {
@@ -41,6 +42,7 @@ namespace EduManager.Pre
 
             return new Student
             {
+                StudentId = _studentId,
                 StudentCode = txtStudentCode.Text,
                 FullName = txtFullName.Text,
                 DateOfBirth = dpDateOfBirth.SelectedDate,
@@ -54,11 +56,13 @@ namespace EduManager.Pre
 
         private void ClearForm()
         {
+            _studentId = 0;
             txtStudentCode.Text = "";
             txtFullName.Text = "";
             txtEmail.Text = "";
             txtPhone.Text = "";
             txtMajor.Text = "";
+            txtStudentCode.IsEnabled = true;
             txtStudentCode.Focus();
         }
 
@@ -80,9 +84,73 @@ namespace EduManager.Pre
             }
         }
 
-        public void btnUpdate_Click(object sender, RoutedEventArgs e) { }
-        public void btnDelete_Click(object sender, RoutedEventArgs e) { }
-        public void btnRefresh_Click(object sender, RoutedEventArgs e) { }
-        public void dgStudents_SelectionChanged(object sender, SelectionChangedEventArgs e) { }
+        public void btnUpdate_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if (_studentId == 0)
+                {
+                    MessageBox.Show("Vui lòng chọn sinh viên trong danh sách để sửa.");
+                    return;
+                }
+                Student student = GetStudentFromForm();
+                _studentService.UpdateStudent(student);
+                LoadStudents();
+                MessageBox.Show("Cập nhật thông tin sinh viên thành công!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
+        public void btnDelete_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                if (_studentId == 0)
+                {
+                    MessageBox.Show("Vui lòng chọn sinh viên cần xóa.");
+                    return;
+                }
+                MessageBoxResult confirm = MessageBox.Show("Bạn có chắc chắn muốn xóa sinh viên này không?",
+                    "Xác nhận xóa", MessageBoxButton.YesNo, MessageBoxImage.Question);
+
+                if (confirm == MessageBoxResult.Yes)
+                {
+                    _studentService.DeleteStudent(_studentId);
+                    LoadStudents();
+                    ClearForm();
+                    MessageBox.Show("Xóa sinh viên thành công.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi: " + ex.Message);
+            }
+        }
+        public void btnRefresh_Click(object sender, RoutedEventArgs e) {
+            LoadStudents();
+            ClearForm();
+        }
+        public void dgStudents_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (dgStudents.SelectedItem is not Student student)
+                return;
+            _studentId = student.StudentId;
+            txtStudentCode.Text = student.StudentCode;
+            txtFullName.Text = student.FullName;
+            dpDateOfBirth.SelectedDate = student.DateOfBirth;
+            txtEmail.Text = student.Email;
+            txtPhone.Text = student.Phone;
+            txtMajor.Text = student.Major;
+            if (student.Gender == "Nam")
+                cboGender.SelectedIndex = 0;
+            else if (student.Gender == "Nữ")
+                cboGender.SelectedIndex = 1;
+            else
+                cboGender.SelectedIndex = -1;
+            txtStudentCode.IsEnabled = false;
+
+        }
     }
 }
